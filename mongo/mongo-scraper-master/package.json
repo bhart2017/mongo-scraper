@@ -2,7 +2,7 @@
   "name": "mongo-scraper",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,11 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/bhart2017/mongo-scraper.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bhart2017/mongo-scraper/issues"
-  },
+ 
   "homepage": "https://github.com/bhart2017/mongo-scraper#readme",
   "dependencies": {
     "body-parser": "^1.16.1",
