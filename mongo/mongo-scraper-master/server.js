@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://username:password@ds161574.mlab.com:61574/heroku_h45416mx");
+mongoose.connect("mongodb://benjamin.hart3:maddog84@ds161574.mlab.com:61574/heroku_h45416mx");
 var db = mongoose.connection;
 
 db.on("error", function(error) {
